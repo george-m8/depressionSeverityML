@@ -1,0 +1,38 @@
+# Ignore macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+**/*__pycache__*/
+
+# Ignore log files
+*.log
+log/
+
+# Ignore extracted features
+features/
+LegacyFeaturesRaw/
+LegacyCompiledFeatures/
+compiledFeaturesCache/
+visualisation/
+spectrograms/
+
+# Ignore wavs
+**/*wav*/
+*.wav
+
+# Ignore lookup CSV
+lookup.csv
+
+# Ignore model files
+**/*sphinxModel*/
+
+
+# Ignore virtual environment folder
+venv/
